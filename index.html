@@ -13,14 +13,307 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Waxom</title>
   <link rel="stylesheet" href="./input.css">
-  <link rel="shortcut icon" href="images/icon.ico"/>
+  <link rel="shortcut icon" href="images/favicon.ico"/>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
           integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
           crossorigin="anonymous">
   </script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </head>
 <body>
+  <header class="header">
+    <section class="header_inner">
+      <a href="#" target="_blank" class="logo">
+        <img src="images/logo.png" alt="logo">
+      </a>
+
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#" class="active">About us</a>
+        <a href="#stats">Stats</a>
+        <a href="#projects">Projects</a>
+        <a href="#features">Features</a>
+        <a href="#partners">Partners</a>
+      </nav>
+
+      <a href="#" id="menu">
+        <img src="images/menu.png" alt="menu">
+      </a>
+    </section>
+
+    <section class="slider">
+      <div class="slider_inner">
+          <img src="images/left_arrow.png" alt="arrow" class="arrow">
+
+          <div class="slider_content">
+            <p class="content_slogan">Unique and Modern Design</p>
+            <h1 class="content_heading">Portfolio PSD Template</h1>
+            <p class="content_info">
+              Nam liber tempor cum soluta nobis eleifend option congue nihil imper- diet
+              doming id quod mazim placerat fasser possim assum.
+            </p>
+            <button class="get_started_button">GET STARTED</button>
+          </div>
+
+          <img src="images/right-arrow.png" alt="arrow" class="arrow">
+      </div>
+
+      <div class="slides">
+        <img src="images/slide_icon.png" alt="slide icon">
+        <img src="images/slide_icon_active.png" alt="slide icon">
+        <img src="images/slide_icon.png" alt="slide icon">
+        <img src="images/slide_icon.png" alt="slide icon">
+        <img src="images/slide_icon.png" alt="slide icon">
+      </div>
+    </section>
+  </header>
+
+  <main class="main">
+    <section class="services">
+      <div class="services_block">
+          <div><img src="images/web_app_design_icon.png" alt="web & app design"></div>
+          <h2 class="services_heading">Web & App Design</h2>
+          <p class="services_expaination">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+            doming id quod mazim.
+          </p>
+          <hr class="services_line">
+      </div>
+      
+
+      <div class="services_block">
+          <div><img src="images/development_icon.png" alt="development"></div>
+          <h2 class="services_heading">Development</h2>
+          <p class="services_expaination">
+            Lorem ipsum dolor sit amet, adipisicing elit, sed diam nonummy nibh eulsmod
+            tincidunt ut laoreet. 
+          </p>
+          <hr class="services_line">
+      </div>
+      
+
+      <div class="services_block">
+          <div><img src="images/customization_icon.png" alt="customization"></div>
+          <h2 class="services_heading">Customization</h2>
+          <p class="services_expaination">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+            doming id quod mazim.
+          </p>
+          <hr class="services_line">
+      </div>
+      
+
+      <div class="services_block">
+          <div><img src="images/marketing_icon.png" alt="marketing"></div>
+          <h2 class="services_heading">Marketing</h2>
+          <p class="services_expaination">
+            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+            doming id quod mazim.
+          </p>
+          <hr class="services_line">
+      </div>
+    </section>
+
+    <section class="waxom">
+      <div class="waxom_inner">
+        <h1 class="waxom_heading">Waxom is Realization of your Ideas.</h1>
+        <p class="waxom_content">
+          Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+          Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+        </p>
+
+        <img src="images/browser_left.png" id="browser_left" alt="browser">
+        <img src="images/browser_center.png" id="browser_center" alt="browser">
+        <img src="images/browser_right.png" id="browser_right" alt="browser">
+      </div>
+    </section>
+
+    <section class="purchase">
+      <div class="purchase_inner">
+        <div>
+          <h1 class="purchase_heading"><span>Waxom</span> Multipurpose WordPress Theme</h1>
+          <p>Don't Forget to Rate the Template. Thanks so much!</p>
+        </div>
   
+        <button class="purchase_button">PURCHASE NOW</button>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="title">
+        <h1 class="title_heading">Our Latest Projects.</h1>
+        <p>
+          Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+          Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+        </p>
+        <div class="project_categories">
+            <a href="#" class="active">All</a>
+            <a href="#">Web Design</a>
+            <a href="#">Mobile App</a>
+            <a href="#">Illustration</a>
+            <a href="#">Photography</a>
+        </div>
+      </div>
+
+      <div class="projects_container">
+        <div class="projects_block">
+          <div class="project_image proj_img1">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div> 
+
+          <div class="project_about">
+            <h2 class="project_heading">Claritas Etiam Processus</h2>
+            <span>Photography, Nature</span>
+          </div>
+        </div>
+
+        <div class="projects_block">
+          <div class="project_image proj_img2">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div>
+          
+          <div class="project_about">
+            <h2 class="project_heading">Quam Nutamus Farum</h2>
+            <span>Graphic Design, Mock-Up</span>
+          </div>
+        </div>
+
+        <div class="projects_block">
+          <div class="project_image proj_img3">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div>
+
+          <div class="project_about">
+            <h2 class="project_heading">Usus Legentis Videntur</h2>
+            <span>Photography, Holiday</span>
+          </div>
+        </div>
+
+        <div class="projects_block">
+          <div class="project_image proj_img4">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div>
+          
+          <div class="project_about">
+            <h2 class="project_heading">Claritas Etiam Processus</h2>
+            <span>Photography, Nature</span>
+          </div>
+        </div>
+
+        <div class="projects_block">
+          <div class="project_image proj_img5">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div>
+          
+          <div class="project_about">
+            <h2 class="project_heading">Quam Nutamus Farum</h2>
+            <span>Graphic Design, Mock-Up</span>
+          </div>
+        </div>
+
+        <div class="projects_block">
+          <div class="project_image proj_img6">
+            <img src="images/magnifier.png" alt="marnifier" class="magnifier">
+            <img src="images/link.png" alt="link" class="link">
+          </div>
+          
+          <div class="project_about">
+            <h2 class="project_heading">Usus Legentis Videntur</h2>
+            <span>Photography, Holiday</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="load_button">LOAD MORE</button>
+    </section>
+
+    <section class="counters" id="stats">
+      <div class="counters_inner">
+
+        <div class="counters_item ">
+          <img src="images/satisfied_clients.png" alt="satisfied clients">
+          <span class="item_count">3587</span>
+          <span class="item_name">Satisfied Clients</span>
+          <hr class="counters_line">
+        </div>
+
+        <div class="counters_item">
+          <img src="images/coffee_cups.png" alt="coffee cups">
+          <span class="item_count">207</span>
+          <span class="item_name">Cups Of Coffee</span>
+          <hr class="counters_line">
+        </div>
+
+        <div class="counters_item">
+          <img src="images/blog_posts.png" alt="blog posts">
+          <span class="item_count">2500</span>
+          <span class="item_name">blog posts</span>
+          <hr class="counters_line">
+        </div>
+
+        <div class="counters_item">
+          <img src="images/likes.png" alt="likes">
+          <span class="item_count">873</span>
+          <span class="item_name">likes</span>
+          <hr class="counters_line">
+        </div>
+
+        <div class="counters_item">
+          <img src="images/launch.png" alt="launch">
+          <span class="item_count">900</span>
+          <span class="item_name">we launched</span>
+          <hr class="counters_line">
+        </div>
+      </div>
+    </section>
+
+    <section class="mobile_devices" id="features">
+      <div class="mobile_devices_inner">
+          <h1 class="mobile_devices_heading">Excellent for Mobile Devices.</h1>
+          <p class="mobile_devices_content">
+            Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+            lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt
+            lectores legere me lius quod ii legunt saepiu claritas.Eodem modo typi, qui nunc
+            nobis videntur parum clari, fiant sollemnes in futurum.
+          </p>
+          <ul class="features">
+            <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+            <li>Option congue nihil imperdiet doming d quod mazim placerat facer;</li>
+            <li>Eodem modo typi, qui nunc nobis videntur parum futurum</li>
+            <li>Investigationes demonstraverunt lectores</li>
+          </ul>
+      </div>
+    </section>
+
+    <section class="partners" id="partners">
+      <div class="partners_inner">
+        <img src="images/antonio_haircut.png" alt="antonio haircut">
+        <img src="images/delicious.png" alt="delicious">
+        <img src="images/pen_tool.png" alt="pen tool">
+        <img src="images/cafe_royal.png" alt="royal rosters">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_inner">
+      <div class="footer_links">
+          <span>Copyright &copy; 2015 <span>Waxom</span></span>
+          <a href="">Privacy Policy</a>
+          <a href="">FAQ</a>
+          <a href="">Support</a>
+      </div>
+      
+      <div class="designed_by">
+        <span id="first_span">Designed by <span>ThemeFire</span></span><span>Only on <span>Envato Market</span></span>
+      </div>
+    </div>
+  </footer>
 <script src="./main.js"></script>
 </body>
 </html>
